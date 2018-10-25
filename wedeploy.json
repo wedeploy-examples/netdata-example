@@ -1,0 +1,10 @@
+{
+  "id": "netdata",
+  "port": 19999,
+  "volumes": {
+    "netdata": "/etc/netdata/override"
+  },
+  "healthCheck": {
+    "url": "localhost:19999"
+  }
+}
